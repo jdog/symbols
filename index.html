@@ -28,7 +28,7 @@
 				var hexCode = "&amp;#x" + code.toString(16) + ";"
 				var decCode = "&amp;#x" + code.toString(10) + ";"
 				var formattedCode = "&#x" + code.toString(16) + ";"
-				var html = "<span class='symbol'>"
+				var html = "<span class='symbol' title='" + decCode + "'>"
 				html += "<i>"+hexCode+"</i>"
 				// html += "<i>"+decCode+"</i>"
 				html += "<b>"+formattedCode+"</b>"
@@ -94,11 +94,13 @@
 			};
 
 			that.buildAll = function(heading) {
+
 				settings.debug.debug && console.log("init");
 				var linkHome = "<a href='#top'>&#10548</a>";
 				$dom.append("<a name='"+ cleanName(heading) +"'></a>");
 				$dom.append("<h1>"+ heading + linkHome + "</h1>");
 				var i = settings.chunk, x = settings.start, y = x+i;
+
 				function dog(x, y) {
 					that.buildRange(x, y, function(code) {
 						if(code < settings.length) {
@@ -106,30 +108,43 @@
 						}
 					}, 2);
 				}
+
 				/* run it */
 				dog(x,y);
 				that.AddToc(heading, cleanName(heading));
 			};
+
 		}
 
 		var buildSymbols;
 
 		$(document).ready(function() {
 
-			buildSymbols = new BuildSymbols($("#symbols"), { length : 12351, chunk : 100, delay : 5 });
+			buildSymbols = new BuildSymbols($("#symbols"), { length : 93312, chunk : 100, delay : 5 });
+
+			buildSymbols.buildGroupRange("Tibet", 3840, 4057);
 
 			buildSymbols.buildArray("Common Needs", [ 187, 147, 148, 145, 146, 150, 151, 133, 153, 149, 169, 171, 174, 9587, 9679, 9746, 9747, 139, 155, 8248, 8963, 8964, 9001, 9002 ]);
 
 			buildSymbols.buildArray("Cool Symbols", [ 9742, 9990, 12320, 10548, 10549, 10004, 10005, 10006, 10008, 9787, 9760, 9731, 9754, 9755, 9654, 9664, 9764, 10140, 9730, 9759, 8987, 8986, 10077, 10078, 12283, 10084, 10006, 10008, 9997, 10003 ]);
+
 			buildSymbols.buildGroupRange("Chess Pieces", 9812, 9823);
+
 			buildSymbols.buildGroupRange("Circle Numbers", 10102, 10131);
+
 			buildSymbols.buildGroupRange("Circle Numbers", 9451, 9470);
+
 			buildSymbols.buildGroupRange("Circle Numbers", 9312, 9371);
+
 			buildSymbols.buildGroupRange("Hand Pointers", 9754, 9759);
+
 			buildSymbols.buildGroupRange("Useful Stuff", 9650, 9669);
+
 			buildSymbols.buildGroupRange("Dingbats", 9728, 9839);
+
 			buildSymbols.buildGroupRange("More Dingbats", 9985, 10087);
-			buildSymbols.buildAll("All Character Codes");
+
+			// buildSymbols.buildAll("All Character Codes");
 
 		});
 
@@ -141,7 +156,7 @@
 	 #characterMap h1 a { text-decoration:none; padding-left:10px; color:rgba(0,0,0,.3) }
 	 #characterMap p { text-align:center; font-family:'Trebuchet MS', arial; }
 		#symbols, #cool { text-align:center; }
-		.symbol { background-color:#fff; display: inline-block; width: 100px; height: 100px; padding: 0; position: relative; border: 1px solid rgba(0, 0, 0, .1); margin: 5px; box-shadow: 1px 1px 7px rgba(0, 0, 0, .2); }
+		.symbol { background-color:#fff; display: inline-block; width: 100px; height: 100px; padding: 0; position: relative; border: 1px solid rgba(0, 0, 0, .1); margin: 5px; }
 		.symbol i { position: absolute; font-size: 11px; font-style: normal; bottom: 3px; left: 0; font-family: verdana, arial; letter-spacing: 1px; width: 100%; display:inline-block; }
 		.symbol b { position: absolute; font-size: 55px; font-style: normal; font-weight: normal; top: 0; left: 0; font-family: verdana, arial; letter-spacing: 1px; width: 100%; display: inline-block; line-height:65px; }
 		.bizzare-symbols .symbol { width:150px; height:120px; }
@@ -158,18 +173,15 @@
 
 <body>
 	<div id="characterMap">
-		<h5>
-			for CSS
-			<pre>
+
+		<h5>for CSS</h5>
+<pre>
 #target:before {
 		content: "\275d";
 }
 </pre>
-			
-		</h5>
 		<div id="symbols"></div>
-		<p>There are symbols further, way past 5000! but these are Chinese and other asian letters</p>
 	</div>
-	
+
 </body>
 </html>
