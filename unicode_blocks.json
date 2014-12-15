@@ -43,7 +43,7 @@
 		, "Count" : 112
 	}
 	, { 
-		"Name" : "and Coptic"
+		"Name" : "Greek and Coptic"
 		, "Start" : "U+0370"
 		, "End" : "U+03FF"
 		, "Count" : 135

@@ -59,6 +59,8 @@ PAGE.addWait(
 
 			if (e_current_nav) {
 				e_current_nav.className = "Selected"
+			} else {
+				e_current_nav.className = ""
 			}
 
 			dog.symbols.buildGroupRange(
@@ -74,11 +76,14 @@ PAGE.addWait(
 		}
 
 		function events() {
-			window.addEventListener("hashchange", readHash)
+			window.addEventListener("hashchange", function(e) {
+				var e_nav_element = readHash(e)
+			})
 
 			if (location.hash) {
 				var e_nav_element = readHash()
 				e_nav_element.scrollIntoView()
+				e_nav_element.parentNode.scrollTop -= ((window.outerHeight / 2) - 70)
 			} else {
 
 				var item = dog.dataHash["basic_latin"]
