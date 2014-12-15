@@ -889,6 +889,12 @@
 		, "Count" : 2
 	}
 	,{
+		"Name" : "Private Use Area (Active)"
+		, "Start" : "U+f802"
+		, "End" : "U+f8ff"
+		, "Count" : 200
+	}
+	,{
 		"Name" : "CJK Compatibility Ideographs"
 		, "Start" : "U+F900"
 		, "End" : "U+FAFF"
