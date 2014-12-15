@@ -3,185 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript"></script>
-	<script type="text/javascript">
-
-		function BuildSymbols($dom, options) {
-			/* private methods */
-
-			function cleanName(name) {
-				return name.replace(" ","-").toLowerCase();
-			}
-
-			var that = this;
-
-			var settings = {
-				$dom   : $dom           || null,
-				length : options.length || 10000,
-				debug  : options.debug  || false,
-				chunk  : options.chunk  || 500,
-				start  : options.start  || 33,
-				delay  : options.delay  || 2
-			};
-
-			that.createSymbol = function(code, callback) {
-				var hexCode = "&amp;#x" + code.toString(16) + ";"
-				var decCode = "&amp;#x" + code.toString(10) + ";"
-				var formattedCode = "&#x" + code.toString(16) + ";"
-				var html = "<span class='symbol' title='" + decCode + "'>"
-				html += "<i>"+hexCode+"</i>"
-				// html += "<i>"+decCode+"</i>"
-				html += "<b>"+formattedCode+"</b>"
-				html += "</span>"
-
-				if(callback && typeof(callback)==="function") callback(code, html)
-
-				return html
-			};
-
-			that.buildArray = function(heading, arr) {
-				var linkHome = "<a href='#top'>&#10548</a>";
-				var html = "<div class='"+cleanName(heading) +"'>";
-				$dom.append("<a name='"+ cleanName(heading) +"'></a>");
-				$dom.append("<h1>"+ heading + linkHome + "</h1>");
-				if(arr && arr.length > 0) {
-					for(var x=0; x < arr.length; x++) {
-						html += that.createSymbol(arr[x]);
-					}
-				}
-				html += "</div>";
-				$dom.append(html);
-				that.AddToc(heading, cleanName(heading));
-			};
-
-			that.buildRange = function(start, end, callback, delay) {
-				settings.debug.debug && console.log("buildRange");
-				var x      = start || 33;
-				var length = end   || settings.length;
-				var html   = "";
-
-				for(x; x <= length; x++) {
-					that.createSymbol(x, function(code, chunk) {
-						html += chunk;
-						if(code >= length) {
-							$dom.append(html);
-							if(delay) {
-								if(callback && typeof(callback)==="function") {
-									setTimeout(function() { callback(code); }, delay);
-								}
-							} else {
-								if(callback && typeof(callback)==="function") {
-									callback(code);
-								}
-							}
-						}
-					});
-				}
-			};
-
-			that.buildGroupRange = function(heading, start, end) {
-				settings.debug.debug && console.log("buildGroup");
-				var linkHome = "<a href='#top'>&#10548</a>";
-				$dom.append("<a name='"+ cleanName(heading) +"'></a>");
-				$dom.append("<h1>"+ heading + linkHome + "</h1>");
-				that.buildRange(start, end);
-				that.AddToc(heading, cleanName(heading));
-			};
-
-			that.AddToc = function(title, link) {
-				if($("#toc").length === 0) $("body").prepend("<div id='toc'><a name='home'></a></div>");
-				$("body").find("#toc").append("<a href='#"+link+"'>"+ title + "</a>");
-			};
-
-			that.buildAll = function(heading) {
-
-				settings.debug.debug && console.log("init");
-				var linkHome = "<a href='#top'>&#10548</a>";
-				$dom.append("<a name='"+ cleanName(heading) +"'></a>");
-				$dom.append("<h1>"+ heading + linkHome + "</h1>");
-				var i = settings.chunk, x = settings.start, y = x+i;
-
-				function dog(x, y) {
-					that.buildRange(x, y, function(code) {
-						if(code < settings.length) {
-							dog(code+1, y+i);
-						}
-					}, 2);
-				}
-
-				/* run it */
-				dog(x,y);
-				that.AddToc(heading, cleanName(heading));
-			};
-
-		}
-
-		var buildSymbols;
-
-		$(document).ready(function() {
-
-			buildSymbols = new BuildSymbols($("#symbols"), { length : 93312, chunk : 100, delay : 5 });
-
-			buildSymbols.buildGroupRange("Tibet", 3840, 4057);
-
-			buildSymbols.buildArray("Common Needs", [ 187, 147, 148, 145, 146, 150, 151, 133, 153, 149, 169, 171, 174, 9587, 9679, 9746, 9747, 139, 155, 8248, 8963, 8964, 9001, 9002 ]);
-
-			buildSymbols.buildArray("Cool Symbols", [ 9742, 9990, 12320, 10548, 10549, 10004, 10005, 10006, 10008, 9787, 9760, 9731, 9754, 9755, 9654, 9664, 9764, 10140, 9730, 9759, 8987, 8986, 10077, 10078, 12283, 10084, 10006, 10008, 9997, 10003 ]);
-
-			buildSymbols.buildGroupRange("Chess Pieces", 9812, 9823);
-
-			buildSymbols.buildGroupRange("Circle Numbers", 10102, 10131);
-
-			buildSymbols.buildGroupRange("Circle Numbers", 9451, 9470);
-
-			buildSymbols.buildGroupRange("Circle Numbers", 9312, 9371);
-
-			buildSymbols.buildGroupRange("Hand Pointers", 9754, 9759);
-
-			buildSymbols.buildGroupRange("Useful Stuff", 9650, 9669);
-
-			buildSymbols.buildGroupRange("Dingbats", 9728, 9839);
-
-			buildSymbols.buildGroupRange("More Dingbats", 9985, 10087);
-
-			// buildSymbols.buildAll("All Character Codes");
-
-		});
-
-	
-	</script>
-	<style type="text/css">
-		html, body { font-family:arial; background-color:#F9FFF9 }
-	 #characterMap h1 { text-align:center; font-family:'Trebuchet MS', arial; }
-	 #characterMap h1 a { text-decoration:none; padding-left:10px; color:rgba(0,0,0,.3) }
-	 #characterMap p { text-align:center; font-family:'Trebuchet MS', arial; }
-		#symbols, #cool { text-align:center; }
-		.symbol { background-color:#fff; display: inline-block; width: 100px; height: 100px; padding: 0; position: relative; border: 1px solid rgba(0, 0, 0, .1); margin: 5px; }
-		.symbol i { position: absolute; font-size: 11px; font-style: normal; bottom: 3px; left: 0; font-family: verdana, arial; letter-spacing: 1px; width: 100%; display:inline-block; }
-		.symbol b { position: absolute; font-size: 55px; font-style: normal; font-weight: normal; top: 0; left: 0; font-family: verdana, arial; letter-spacing: 1px; width: 100%; display: inline-block; line-height:65px; }
-		.bizzare-symbols .symbol { width:150px; height:120px; }
-		.bizzare-symbols .symbol b { font-size:90px; line-height:90px; }
-		#toc { border:8px solid rgba(0,0,0,.1); border-right:0; border-left:0; margin:10px 0; text-align:center;  }
-		#toc a { display:inline-block; width:200px; height:30px; margin-right:8%; text-decoration:none; color:rgba(0,0,0,.6); }
-		#toc a:hover { text-decoration:underline; color:rgba(0,0,0,1); }
-
-		.symbol {
-			background:white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAlQTFRF////9PT06+vrawerqQAAABVJREFUeNpiYGKEAQZGBjigERMgwAAG1gAV2O8/1QAAAABJRU5ErkJggg==) repeat 0 0;
-		}
-	</style>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<div id="characterMap">
-
-		<h5>for CSS</h5>
-<pre>
-#target:before {
-		content: "\275d";
-}
-</pre>
-		<div id="symbols"></div>
+	<div class="Wrap" id="characterMap">
+		<div id="toc"></div>
+		<div class="Main">
+			<div id="symbols"></div>
+		</div>
 	</div>
-
 </body>
+
+	<script src="page.loader.js" type="text/javascript"></script>
+	<script src="page.extend.ajax.js" type="text/javascript"></script>
+	<script src="page.constructors.buildSymbols.js" type="text/javascript"></script>
+	<script src="page.modules.symbols.js" type="text/javascript"></script>
+
 </html>

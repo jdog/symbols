@@ -1,0 +1,22 @@
+{
+	"Blocks" : [
+		{
+		"Name" : "basic_latin/index.htm"
+		, "Start" : "U+0000"
+		, "End" : "U+007F"
+		, "Count" : 128
+	}
+	, {
+		"Name" : "latin_supplement/index.htm"
+		, "Start" : "U+0080"
+		, "End" : "U+00FF"
+		, "Count" : 128
+	}
+	, { 
+		"Name" : "Latin Extended-A"
+		, "Start" : "U+0100"
+		, "End" : "U+017F"
+		, "Count" : 128
+	}
+	]
+}

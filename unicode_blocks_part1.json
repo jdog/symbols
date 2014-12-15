@@ -1,0 +1,88 @@
+{
+	"Blocks" : [
+		{
+		"Name" : "basic_latin"
+		, "Start" : "U+0000"
+		, "End" : "U+007F"
+		, "Count" : 128
+	}
+	, {
+		"Name" : "latin_supplement"
+		, "Start" : "U+0080"
+		, "End" : "U+00FF"
+		, "Count" : 128
+	}
+	, { 
+		"Name" : "Latin Extended-A"
+		, "Start" : "U+0100"
+		, "End" : "U+017F"
+		, "Count" : 128
+	}
+	, { 
+		"Name" : "Extended-B"
+		, "Start" : "U+0180"
+		, "End" : "U+024F"
+		, "Count" : 208
+	}
+	, { 
+		"Name" : "Extensions"
+		, "Start" : "U+0250"
+		, "End" : "U+02AF"
+		, "Count" : 96
+	}
+	, { 
+		"Name" : "Modifier Letters"
+		, "Start" : "U+02B0"
+		, "End" : "U+02FF"
+		, "Count" : 80
+	}
+	, { 
+		"Name" : "Diacritical Marks"
+		, "Start" : "U+0300"
+		, "End" : "U+036F"
+		, "Count" : 112
+	}
+	, { 
+		"Name" : "and Coptic"
+		, "Start" : "U+0370"
+		, "End" : "U+03FF"
+		, "Count" : 135
+	}
+	, {
+		"Name" : "Cyrillic"
+		, "Start" : "U+0400"
+		, "End" : "U+04FF"
+		, "Count" : 256
+	}
+	, {
+		"Name" : "Cyrillic Supplement"
+		, "Start" : "U+0500"
+		, "End" : "U+052F"
+		, "Count" : 48
+	}
+	,{
+		"Name" : "Armenian"
+		, "Start" : "U+0530"
+		, "End" : "U+058F"
+		, "Count" : 89
+	}
+	,{
+		"Name" : "Hebrew"
+		, "Start" : "U+0590"
+		, "End" : "U+05FF"
+		, "Count" : 87
+	}
+	,{
+		"Name" : "Arabic"
+		, "Start" : "U+0600"
+		, "End" : "U+06FF"
+		, "Count" : 255
+	}
+	,{
+		"Name" : "Syriac"
+		, "Start" : "U+0700"
+		, "End" : "U+074F"
+		, "Count" : 77
+	}
+	]
+}

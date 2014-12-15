@@ -1,0 +1,190 @@
+{
+	"Blocks" : [
+	{
+		"Name" : "Arabic Supplement"
+		, "Start" : "U+0750"
+		, "End" : "U+077F"
+		, "Count" : 48
+	}
+	,{
+		"Name" : "Thaana"
+		, "Start" : "U+0780"
+		, "End" : "U+07BF"
+		, "Count" : 50
+	}
+	,{
+		"Name" : "NKo"
+		, "Start" : "U+07C0"
+		, "End" : "U+07FF"
+		, "Count" : 59
+	}
+	,{
+		"Name" : "Samaritan"
+		, "Start" : "U+0800"
+		, "End" : "U+083F"
+		, "Count" : 61
+	}
+	,{
+		"Name" : "Mandaic"
+		, "Start" : "U+0840"
+		, "End" : "U+085F"
+		, "Count" : 29
+	}
+	,{
+		"Name" : "Arabic Extended-A"
+		, "Start" : "U+08A0"
+		, "End" : "U+08FF"
+		, "Count" : 47
+	}
+	,{
+		"Name" : "Devanagari"
+		, "Start" : "U+0900"
+		, "End" : "U+097F"
+		, "Count" : 128
+	}
+	,{
+		"Name" : "Bengali"
+		, "Start" : "U+0980"
+		, "End" : "U+09FF"
+		, "Count" : 93
+	}
+	, {
+		"Name" : "Gurmukhi"
+		, "Start" : "U+0A00"
+		, "End" : "U+0A7F"
+		, "Count" : 79
+	}
+	,{
+		"Name" : "Gujarati"
+		, "Start" : "U+0A80"
+		, "End" : "U+0AFF"
+		, "Count" : 84
+	}
+	,{
+		"Name" : "Oriya"
+		, "Start" : "U+0B00"
+		, "End" : "U+0B7F"
+		, "Count" : 90
+	}
+	,{
+		"Name" : "Tamil"
+		, "Start" : "U+0B80"
+		, "End" : "U+0BFF"
+		, "Count" : 72
+	}
+	,{
+		"Name" : "Telugu"
+		, "Start" : "U+0C00"
+		, "End" : "U+0C7F"
+		, "Count" : 95
+	}
+	,{
+		"Name" : "Kannada"
+		, "Start" : "U+0C80"
+		, "End" : "U+0CFF"
+		, "Count" : 87
+	}
+	,{
+		"Name" : "Malayalam"
+		, "Start" : "U+0D00"
+		, "End" : "U+0D7F"
+		, "Count" : 99
+	}
+	,{
+		"Name" : "Sinhala"
+		, "Start" : "U+0D80"
+		, "End" : "U+0DFF"
+		, "Count" : 90
+	}
+	,{
+		"Name" : "Thai"
+		, "Start" : "U+0E00"
+		, "End" : "U+0E7F"
+		, "Count" : 87
+	}
+	,{
+		"Name" : "Lao"
+		, "Start" : "U+0E80"
+		, "End" : "U+0EFF"
+		, "Count" : 67
+	}
+	,{
+		"Name" : "Tibetan"
+		, "Start" : "U+0F00"
+		, "End" : "U+0FFF"
+		, "Count" : 211
+	}
+	,{
+		"Name" : "Myanmar"
+		, "Start" : "U+1000"
+		, "End" : "U+109F"
+		, "Count" : 160
+	}
+	,{
+		"Name" : "Georgian"
+		, "Start" : "U+10A0"
+		, "End" : "U+10FF"
+		, "Count" : 88
+	}
+	,{
+		"Name" : "Hangul Jamo"
+		, "Start" : "U+1100"
+		, "End" : "U+11FF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "Ethiopic"
+		, "Start" : "U+1200"
+		, "End" : "U+137F"
+		, "Count" : 358
+	}
+	,{
+		"Name" : "Ethiopic Supplement"
+		, "Start" : "U+1380"
+		, "End" : "U+139F"
+		, "Count" : 26
+	}
+	,{
+		"Name" : "Cherokee"
+		, "Start" : "U+13A0"
+		, "End" : "U+13FF"
+		, "Count" : 85
+	}
+	,{
+		"Name" : "Unified Canadian Aboriginal Syllabics"
+		, "Start" : "U+1400"
+		, "End" : "U+167F"
+		, "Count" : 640
+	}
+	,{
+		"Name" : "Ogham"
+		, "Start" : "U+1680"
+		, "End" : "U+169F"
+		, "Count" : 29
+	}
+	,{
+		"Name" : "Runic"
+		, "Start" : "U+16A0"
+		, "End" : "U+16FF"
+		, "Count" : 89
+	}
+	,{
+		"Name" : "Tagalog"
+		, "Start" : "U+1700"
+		, "End" : "U+171F"
+		, "Count" : 20
+	}
+	,{
+		"Name" : "Hanunoo"
+		, "Start" : "U+1720"
+		, "End" : "U+173F"
+		, "Count" : 23
+	}
+	,{
+		"Name" : "Buhid"
+		, "Start" : "U+1740"
+		, "End" : "U+175F"
+		, "Count" : 20
+	}
+	]
+}

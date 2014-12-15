@@ -1,0 +1,1521 @@
+{
+	"Blocks" : [
+		{
+		"Name" : "basic_latin"
+		, "Start" : "U+0000"
+		, "End" : "U+007F"
+		, "Count" : 128
+	}
+	, {
+		"Name" : "latin_supplement"
+		, "Start" : "U+0080"
+		, "End" : "U+00FF"
+		, "Count" : 128
+	}
+	, { 
+		"Name" : "Latin Extended-A"
+		, "Start" : "U+0100"
+		, "End" : "U+017F"
+		, "Count" : 128
+	}
+	, { 
+		"Name" : "Extended-B"
+		, "Start" : "U+0180"
+		, "End" : "U+024F"
+		, "Count" : 208
+	}
+	, { 
+		"Name" : "Extensions"
+		, "Start" : "U+0250"
+		, "End" : "U+02AF"
+		, "Count" : 96
+	}
+	, { 
+		"Name" : "Modifier Letters"
+		, "Start" : "U+02B0"
+		, "End" : "U+02FF"
+		, "Count" : 80
+	}
+	, { 
+		"Name" : "Diacritical Marks"
+		, "Start" : "U+0300"
+		, "End" : "U+036F"
+		, "Count" : 112
+	}
+	, { 
+		"Name" : "and Coptic"
+		, "Start" : "U+0370"
+		, "End" : "U+03FF"
+		, "Count" : 135
+	}
+	, {
+		"Name" : "Cyrillic"
+		, "Start" : "U+0400"
+		, "End" : "U+04FF"
+		, "Count" : 256
+	}
+	, {
+		"Name" : "Cyrillic Supplement"
+		, "Start" : "U+0500"
+		, "End" : "U+052F"
+		, "Count" : 48
+	}
+	,{
+		"Name" : "Armenian"
+		, "Start" : "U+0530"
+		, "End" : "U+058F"
+		, "Count" : 89
+	}
+	,{
+		"Name" : "Hebrew"
+		, "Start" : "U+0590"
+		, "End" : "U+05FF"
+		, "Count" : 87
+	}
+	,{
+		"Name" : "Arabic"
+		, "Start" : "U+0600"
+		, "End" : "U+06FF"
+		, "Count" : 255
+	}
+	,{
+		"Name" : "Syriac"
+		, "Start" : "U+0700"
+		, "End" : "U+074F"
+		, "Count" : 77
+	}
+	,{
+		"Name" : "Arabic Supplement"
+		, "Start" : "U+0750"
+		, "End" : "U+077F"
+		, "Count" : 48
+	}
+	,{
+		"Name" : "Thaana"
+		, "Start" : "U+0780"
+		, "End" : "U+07BF"
+		, "Count" : 50
+	}
+	,{
+		"Name" : "NKo"
+		, "Start" : "U+07C0"
+		, "End" : "U+07FF"
+		, "Count" : 59
+	}
+	,{
+		"Name" : "Samaritan"
+		, "Start" : "U+0800"
+		, "End" : "U+083F"
+		, "Count" : 61
+	}
+	,{
+		"Name" : "Mandaic"
+		, "Start" : "U+0840"
+		, "End" : "U+085F"
+		, "Count" : 29
+	}
+	,{
+		"Name" : "Arabic Extended-A"
+		, "Start" : "U+08A0"
+		, "End" : "U+08FF"
+		, "Count" : 47
+	}
+	,{
+		"Name" : "Devanagari"
+		, "Start" : "U+0900"
+		, "End" : "U+097F"
+		, "Count" : 128
+	}
+	,{
+		"Name" : "Bengali"
+		, "Start" : "U+0980"
+		, "End" : "U+09FF"
+		, "Count" : 93
+	}
+	, {
+		"Name" : "Gurmukhi"
+		, "Start" : "U+0A00"
+		, "End" : "U+0A7F"
+		, "Count" : 79
+	}
+	,{
+		"Name" : "Gujarati"
+		, "Start" : "U+0A80"
+		, "End" : "U+0AFF"
+		, "Count" : 84
+	}
+	,{
+		"Name" : "Oriya"
+		, "Start" : "U+0B00"
+		, "End" : "U+0B7F"
+		, "Count" : 90
+	}
+	,{
+		"Name" : "Tamil"
+		, "Start" : "U+0B80"
+		, "End" : "U+0BFF"
+		, "Count" : 72
+	}
+	,{
+		"Name" : "Telugu"
+		, "Start" : "U+0C00"
+		, "End" : "U+0C7F"
+		, "Count" : 95
+	}
+	,{
+		"Name" : "Kannada"
+		, "Start" : "U+0C80"
+		, "End" : "U+0CFF"
+		, "Count" : 87
+	}
+	,{
+		"Name" : "Malayalam"
+		, "Start" : "U+0D00"
+		, "End" : "U+0D7F"
+		, "Count" : 99
+	}
+	,{
+		"Name" : "Sinhala"
+		, "Start" : "U+0D80"
+		, "End" : "U+0DFF"
+		, "Count" : 90
+	}
+	,{
+		"Name" : "Thai"
+		, "Start" : "U+0E00"
+		, "End" : "U+0E7F"
+		, "Count" : 87
+	}
+	,{
+		"Name" : "Lao"
+		, "Start" : "U+0E80"
+		, "End" : "U+0EFF"
+		, "Count" : 67
+	}
+	,{
+		"Name" : "Tibetan"
+		, "Start" : "U+0F00"
+		, "End" : "U+0FFF"
+		, "Count" : 211
+	}
+	,{
+		"Name" : "Myanmar"
+		, "Start" : "U+1000"
+		, "End" : "U+109F"
+		, "Count" : 160
+	}
+	,{
+		"Name" : "Georgian"
+		, "Start" : "U+10A0"
+		, "End" : "U+10FF"
+		, "Count" : 88
+	}
+	,{
+		"Name" : "Hangul Jamo"
+		, "Start" : "U+1100"
+		, "End" : "U+11FF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "Ethiopic"
+		, "Start" : "U+1200"
+		, "End" : "U+137F"
+		, "Count" : 358
+	}
+	,{
+		"Name" : "Ethiopic Supplement"
+		, "Start" : "U+1380"
+		, "End" : "U+139F"
+		, "Count" : 26
+	}
+	,{
+		"Name" : "Cherokee"
+		, "Start" : "U+13A0"
+		, "End" : "U+13FF"
+		, "Count" : 85
+	}
+	,{
+		"Name" : "Unified Canadian Aboriginal Syllabics"
+		, "Start" : "U+1400"
+		, "End" : "U+167F"
+		, "Count" : 640
+	}
+	,{
+		"Name" : "Ogham"
+		, "Start" : "U+1680"
+		, "End" : "U+169F"
+		, "Count" : 29
+	}
+	,{
+		"Name" : "Runic"
+		, "Start" : "U+16A0"
+		, "End" : "U+16FF"
+		, "Count" : 89
+	}
+	,{
+		"Name" : "Tagalog"
+		, "Start" : "U+1700"
+		, "End" : "U+171F"
+		, "Count" : 20
+	}
+	,{
+		"Name" : "Hanunoo"
+		, "Start" : "U+1720"
+		, "End" : "U+173F"
+		, "Count" : 23
+	}
+	,{
+		"Name" : "Buhid"
+		, "Start" : "U+1740"
+		, "End" : "U+175F"
+		, "Count" : 20
+	}
+	,{
+		"Name" : "Tagbanwa"
+		, "Start" : "U+1760"
+		, "End" : "U+177F"
+		, "Count" : 18
+	}
+	,{
+		"Name" : "Khmer"
+		, "Start" : "U+1780"
+		, "End" : "U+17FF"
+		, "Count" : 114
+	}
+	,{
+		"Name" : "Mongolian"
+		, "Start" : "U+1800"
+		, "End" : "U+18AF"
+		, "Count" : 156
+	}
+	,{
+		"Name" : "Unified Canadian Aboriginal Syllabics Extended"
+		, "Start" : "U+18B0"
+		, "End" : "U+18FF"
+		, "Count" : 70
+	}
+	,{
+		"Name" : "Limbu"
+		, "Start" : "U+1900"
+		, "End" : "U+194F"
+		, "Count" : 68
+	}
+	,{
+		"Name" : "Tai Le"
+		, "Start" : "U+1950"
+		, "End" : "U+197F"
+		, "Count" : 35
+	}
+	,{
+		"Name" : "New Tai Lue"
+		, "Start" : "U+1980"
+		, "End" : "U+19DF"
+		, "Count" : 83
+	}
+	,{
+		"Name" : "Khmer Symbols"
+		, "Start" : "U+19E0"
+		, "End" : "U+19FF"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Buginese"
+		, "Start" : "U+1A00"
+		, "End" : "U+1A1F"
+		, "Count" : 30
+	}
+	,{
+		"Name" : "Tai Tham"
+		, "Start" : "U+1A20"
+		, "End" : "U+1AAF"
+		, "Count" : 127
+	}
+	,{
+		"Name" : "Combining Diacritical Marks Extended"
+		, "Start" : "U+1AB0"
+		, "End" : "U+1AFF"
+		, "Count" : 15
+	}
+	,{
+		"Name" : "Balinese"
+		, "Start" : "U+1B00"
+		, "End" : "U+1B7F"
+		, "Count" : 121
+	}
+	,{
+		"Name" : "Sundanese"
+		, "Start" : "U+1B80"
+		, "End" : "U+1BBF"
+		, "Count" : 64
+	}
+	,{
+		"Name" : "Batak"
+		, "Start" : "U+1BC0"
+		, "End" : "U+1BFF"
+		, "Count" : 56
+	}
+	,{
+		"Name" : "Lepcha"
+		, "Start" : "U+1C00"
+		, "End" : "U+1C4F"
+		, "Count" : 74
+	}
+	,{
+		"Name" : "Ol Chiki"
+		, "Start" : "U+1C50"
+		, "End" : "U+1C7F"
+		, "Count" : 48
+	}
+	,{
+		"Name" : "Sundanese Supplement"
+		, "Start" : "U+1CC0"
+		, "End" : "U+1CCF"
+		, "Count" : 8
+	}
+	,{
+		"Name" : "Vedic Extensions"
+		, "Start" : "U+1CD0"
+		, "End" : "U+1CFF"
+		, "Count" : 41
+	}
+	,{
+		"Name" : "Phonetic Extensions"
+		, "Start" : "U+1D00"
+		, "End" : "U+1D7F"
+		, "Count" : 128
+	}
+	,{
+		"Name" : "Phonetic Extensions Supplement"
+		, "Start" : "U+1D80"
+		, "End" : "U+1DBF"
+		, "Count" : 64
+	}
+	,{
+		"Name" : "Combining Diacritical Marks Supplement"
+		, "Start" : "U+1DC0"
+		, "End" : "U+1DFF"
+		, "Count" : 58
+	}
+	,{
+		"Name" : "Latin Extended Additional"
+		, "Start" : "U+1E00"
+		, "End" : "U+1EFF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "Greek Extended"
+		, "Start" : "U+1F00"
+		, "End" : "U+1FFF"
+		, "Count" : 233
+	}
+	,{
+		"Name" : "General Punctuation"
+		, "Start" : "U+2000"
+		, "End" : "U+206F"
+		, "Count" : 111
+	}
+	,{
+		"Name" : "Superscripts and Subscripts"
+		, "Start" : "U+2070"
+		, "End" : "U+209F"
+		, "Count" : 42
+	}
+	,{
+		"Name" : "Currency Symbols"
+		, "Start" : "U+20A0"
+		, "End" : "U+20CF"
+		, "Count" : 30
+	}
+	,{
+		"Name" : "Combining Diacritical Marks for Symbols"
+			, "Start" : "U+20D0"
+		, "End" : "U+20FF"
+		, "Count" : 33
+	}
+	,{
+		"Name" : "Letterlike Symbols"
+		, "Start" : "U+2100"
+		, "End" : "U+214F"
+		, "Count" : 80
+	}
+	,{
+		"Name" : "Number Forms"
+		, "Start" : "U+2150"
+		, "End" : "U+218F"
+		, "Count" : 58
+	}
+	,{
+		"Name" : "Arrows"
+		, "Start" : "U+2190"
+		, "End" : "U+21FF"
+		, "Count" : 112
+	}
+	,{
+		"Name" : "Mathematical Operators"
+		, "Start" : "U+2200"
+		, "End" : "U+22FF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "Miscellaneous Technical"
+		, "Start" : "U+2300"
+		, "End" : "U+23FF"
+		, "Count" : 251
+	}
+	,{
+		"Name" : "Control Pictures"
+		, "Start" : "U+2400"
+		, "End" : "U+243F"
+		, "Count" : 39
+	}
+	,{
+		"Name" : "Optical Character Recognition"
+		, "Start" : "U+2440"
+		, "End" : "U+245F"
+		, "Count" : 11
+	}
+	,{
+		"Name" : "Enclosed Alphanumerics"
+		, "Start" : "U+2460"
+		, "End" : "U+24FF"
+		, "Count" : 160
+	}
+	,{
+		"Name" : "Box Drawing"
+		, "Start" : "U+2500"
+		, "End" : "U+257F"
+		, "Count" : 128
+	}
+	,{
+		"Name" : "Block Elements"
+		, "Start" : "U+2580"
+		, "End" : "U+259F"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Geometric Shapes"
+		, "Start" : "U+25A0"
+		, "End" : "U+25FF"
+		, "Count" : 96
+	}
+	,{
+		"Name" : "Miscellaneous Symbols"
+		, "Start" : "U+2600"
+		, "End" : "U+26FF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "Dingbats"
+		, "Start" : "U+2700"
+		, "End" : "U+27BF"
+		, "Count" : 192
+	}
+	,{
+		"Name" : "Miscellaneous Mathematical Symbols-A"
+		, "Start" : "U+27C0"
+		, "End" : "U+27EF"
+		, "Count" : 48
+	}
+	,{
+		"Name" : "Supplemental Arrows-A"
+		, "Start" : "U+27F0"
+		, "End" : "U+27FF"
+		, "Count" : 16
+	}
+	,{
+		"Name" : "Braille Patterns"
+		, "Start" : "U+2800"
+		, "End" : "U+28FF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "Supplemental Arrows-B"
+		, "Start" : "U+2900"
+		, "End" : "U+297F"
+		, "Count" : 128
+	}
+	,{
+		"Name" : "Miscellaneous Mathematical Symbols-B"
+		, "Start" : "U+2980"
+		, "End" : "U+29FF"
+		, "Count" : 128
+	}
+	,{
+		"Name" : "Supplemental Mathematical Operators"
+		, "Start" : "U+2A00"
+		, "End" : "U+2AFF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "Miscellaneous Symbols and Arrows"
+		, "Start" : "U+2B00"
+		, "End" : "U+2BFF"
+		, "Count" : 202
+	}
+	,{
+		"Name" : "Glagolitic"
+		, "Start" : "U+2C00"
+		, "End" : "U+2C5F"
+		, "Count" : 94
+	}
+	,{
+		"Name" : "Latin Extended-C"
+		, "Start" : "U+2C60"
+		, "End" : "U+2C7F"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Coptic"
+		, "Start" : "U+2C80"
+		, "End" : "U+2CFF"
+		, "Count" : 123
+	}
+	,{
+		"Name" : "Georgian Supplement"
+		, "Start" : "U+2D00"
+		, "End" : "U+2D2F"
+		, "Count" : 40
+	}
+	,{
+		"Name" : "Tifinagh"
+		, "Start" : "U+2D30"
+		, "End" : "U+2D7F"
+		, "Count" : 59
+	}
+	,{
+		"Name" : "Ethiopic Extended"
+		, "Start" : "U+2D80"
+		, "End" : "U+2DDF"
+		, "Count" : 79
+	}
+	,{
+		"Name" : "Cyrillic Extended-A"
+		, "Start" : "U+2DE0"
+		, "End" : "U+2DFF"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Supplemental Punctuation"
+		, "Start" : "U+2E00"
+		, "End" : "U+2E7F"
+		, "Count" : 67
+	}
+	,{
+		"Name" : "CJK Radicals Supplement"
+		, "Start" : "U+2E80"
+		, "End" : "U+2EFF"
+		, "Count" : 115
+	}
+	,{
+		"Name" : "Kangxi Radicals"
+		, "Start" : "U+2F00"
+		, "End" : "U+2FDF"
+		, "Count" : 214
+	}
+	,{
+		"Name" : "Ideographic Description Characters"
+		, "Start" : "U+2FF0"
+		, "End" : "U+2FFF"
+		, "Count" : 12
+	}
+	,{
+		"Name" : "CJK Symbols and Punctuation"
+		, "Start" : "U+3000"
+		, "End" : "U+303F"
+		, "Count" : 64
+	}
+	,{
+		"Name" : "Hiragana"
+		, "Start" : "U+3040"
+		, "End" : "U+309F"
+		, "Count" : 93
+	}
+	,{
+		"Name" : "Katakana"
+		, "Start" : "U+30A0"
+		, "End" : "U+30FF"
+		, "Count" : 96
+	}
+	,{
+		"Name" : "Bopomofo"
+		, "Start" : "U+3100"
+		, "End" : "U+312F"
+		, "Count" : 41
+	}
+	,{
+		"Name" : "Hangul Compatibility Jamo"
+		, "Start" : "U+3130"
+		, "End" : "U+318F"
+		, "Count" : 94
+	}
+	,{
+		"Name" : "Kanbun"
+		, "Start" : "U+3190"
+		, "End" : "U+319F"
+		, "Count" : 16
+	}
+	,{
+		"Name" : "Bopomofo Extended"
+		, "Start" : "U+31A0"
+		, "End" : "U+31BF"
+		, "Count" : 27
+	}
+	,{
+		"Name" : "CJK Strokes"
+		, "Start" : "U+31C0"
+		, "End" : "U+31EF"
+		, "Count" : 36
+	}
+	,{
+		"Name" : "Katakana Phonetic Extensions"
+		, "Start" : "U+31F0"
+		, "End" : "U+31FF"
+		, "Count" : 16
+	}
+	,{
+		"Name" : "Enclosed CJK Letters and Months"
+		, "Start" : "U+3200"
+		, "End" : "U+32FF"
+		, "Count" : 254
+	}
+	,{
+		"Name" : "CJK Compatibility"
+		, "Start" : "U+3300"
+		, "End" : "U+33FF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "CJK Unified Ideographs Extension A"
+		, "Start" : "U+3400"
+		, "End" : "U+4DBF"
+		, "Count" : 6191
+	}
+	,{
+		"Name" : "Yijing Hexagram Symbols"
+		, "Start" : "U+4DC0"
+		, "End" : "U+4DFF"
+		, "Count" : 64
+	}
+	,{
+		"Name" : "CJK Unified Ideographs"
+		, "Start" : "U+4E00"
+		, "End" : "U+9FFF"
+		, "Count" : 20933
+	}
+	,{
+		"Name" : "Yi Syllables"
+		, "Start" : "U+A000"
+		, "End" : "U+A48F"
+		, "Count" : 1165
+	}
+	,{
+		"Name" : "Yi Radicals"
+		, "Start" : "U+A490"
+		, "End" : "U+A4CF"
+		, "Count" : 55
+	}
+	,{
+		"Name" : "Lisu"
+		, "Start" : "U+A4D0"
+		, "End" : "U+A4FF"
+		, "Count" : 48
+	}
+	,{
+		"Name" : "Vai"
+		, "Start" : "U+A500"
+		, "End" : "U+A63F"
+		, "Count" : 300
+	}
+	,{
+		"Name" : "Cyrillic Extended-B"
+		, "Start" : "U+A640"
+		, "End" : "U+A69F"
+		, "Count" : 95
+	}
+	,{
+		"Name" : "Bamum"
+		, "Start" : "U+A6A0"
+		, "End" : "U+A6FF"
+		, "Count" : 88
+	}
+	,{
+		"Name" : "Modifier Tone Letters"
+		, "Start" : "U+A700"
+		, "End" : "U+A71F"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Latin Extended-D"
+		, "Start" : "U+A720"
+		, "End" : "U+A7FF"
+		, "Count" : 152
+	}
+	,{
+		"Name" : "Syloti Nagri"
+		, "Start" : "U+A800"
+		, "End" : "U+A82F"
+		, "Count" : 44
+	}
+	,{
+		"Name" : "Common Indic Number Forms"
+		, "Start" : "U+A830"
+		, "End" : "U+A83F"
+		, "Count" : 10
+	}
+	,{
+		"Name" : "Phags-pa"
+		, "Start" : "U+A840"
+		, "End" : "U+A87F"
+		, "Count" : 56
+	}
+	,{
+		"Name" : "Saurashtra"
+		, "Start" : "U+A880"
+		, "End" : "U+A8DF"
+		, "Count" : 81
+	}
+	,{
+		"Name" : "Devanagari Extended"
+		, "Start" : "U+A8E0"
+		, "End" : "U+A8FF"
+		, "Count" : 28
+	}
+	,{
+		"Name" : "Kayah Li"
+		, "Start" : "U+A900"
+		, "End" : "U+A92F"
+		, "Count" : 48
+	}
+	,{
+		"Name" : "Rejang"
+		, "Start" : "U+A930"
+		, "End" : "U+A95F"
+		, "Count" : 37
+	}
+	,{
+		"Name" : "Hangul Jamo Extended-A"
+		, "Start" : "U+A960"
+		, "End" : "U+A97F"
+		, "Count" : 29
+	}
+	,{
+		"Name" : "Javanese"
+		, "Start" : "U+A980"
+		, "End" : "U+A9DF"
+		, "Count" : 91
+	}
+	,{
+		"Name" : "Myanmar Extended-B"
+		, "Start" : "U+A9E0"
+		, "End" : "U+A9FF"
+		, "Count" : 31
+	}
+	,{
+		"Name" : "Cham"
+		, "Start" : "U+AA00"
+		, "End" : "U+AA5F"
+		, "Count" : 83
+	}
+	,{
+		"Name" : "Myanmar Extended-A"
+		, "Start" : "U+AA60"
+		, "End" : "U+AA7F"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Tai Viet"
+		, "Start" : "U+AA80"
+		, "End" : "U+AADF"
+		, "Count" : 72
+	}
+	,{
+		"Name" : "Meetei Mayek Extensions"
+		, "Start" : "U+AAE0"
+		, "End" : "U+AAFF"
+		, "Count" : 23
+	}
+	,{
+		"Name" : "Ethiopic Extended-A"
+		, "Start" : "U+AB00"
+		, "End" : "U+AB2F"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Latin Extended-E"
+		, "Start" : "U+AB30"
+		, "End" : "U+AB6F"
+		, "Count" : 50
+	}
+	,{
+		"Name" : "Meetei Mayek"
+		, "Start" : "U+ABC0"
+		, "End" : "U+ABFF"
+		, "Count" : 56
+	}
+	,{
+		"Name" : "Hangul Syllables"
+		, "Start" : "U+AC00"
+		, "End" : "U+D7AF"
+		, "Count" : 2
+	}
+	,{
+		"Name" : "Hangul Jamo Extended-B"
+		, "Start" : "U+D7B0"
+		, "End" : "U+D7FF"
+		, "Count" : 72
+	}
+	,{
+		"Name" : "High Surrogates"
+		, "Start" : "U+D800"
+		, "End" : "U+DB7F"
+		, "Count" : 2
+	}
+	,{
+		"Name" : "High Private Use Surrogates"
+		, "Start" : "U+DB80"
+		, "End" : "U+DBFF"
+		, "Count" : 2
+	}
+	,{
+		"Name" : "Low Surrogates"
+		, "Start" : "U+DC00"
+		, "End" : "U+DFFF"
+		, "Count" : 2
+	}
+	,{
+		"Name" : "Private Use Area"
+		, "Start" : "U+E000"
+		, "End" : "U+F8FF"
+		, "Count" : 2
+	}
+	,{
+		"Name" : "CJK Compatibility Ideographs"
+		, "Start" : "U+F900"
+		, "End" : "U+FAFF"
+		, "Count" : 472
+	}
+	,{
+		"Name" : "Alphabetic Presentation Forms"
+		, "Start" : "U+FB00"
+		, "End" : "U+FB4F"
+		, "Count" : 58
+	}
+	,{
+		"Name" : "Arabic Presentation Forms-A"
+		, "Start" : "U+FB50"
+		, "End" : "U+FDFF"
+		, "Count" : 643
+	}
+	,{
+		"Name" : "Variation Selectors"
+		, "Start" : "U+FE00"
+		, "End" : "U+FE0F"
+		, "Count" : 16
+	}
+	,{
+		"Name" : "Vertical Forms"
+		, "Start" : "U+FE10"
+		, "End" : "U+FE1F"
+		, "Count" : 10
+	}
+	,{
+		"Name" : "Combining Half Marks"
+		, "Start" : "U+FE20"
+		, "End" : "U+FE2F"
+		, "Count" : 14
+	}
+	,{
+		"Name" : "CJK Compatibility Forms"
+		, "Start" : "U+FE30"
+		, "End" : "U+FE4F"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Small Form Variants"
+		, "Start" : "U+FE50"
+		, "End" : "U+FE6F"
+		, "Count" : 26
+	}
+	,{
+		"Name" : "Arabic Presentation Forms-B"
+		, "Start" : "U+FE70"
+		, "End" : "U+FEFF"
+		, "Count" : 141
+	}
+	,{
+		"Name" : "Halfwidth and Fullwidth Forms"
+		, "Start" : "U+FF00"
+		, "End" : "U+FFEF"
+		, "Count" : 225
+	}
+	,{
+		"Name" : "Specials"
+		, "Start" : "U+FFF0"
+		, "End" : "U+FFFF"
+		, "Count" : 7
+	}
+	,{
+		"Name" : "Linear B Syllabary"
+		, "Start" : "U+10000"
+		, "End" : "U+1007F"
+		, "Count" : 88
+	}
+	,{
+		"Name" : "Linear B Ideograms"
+		, "Start" : "U+10080"
+		, "End" : "U+100FF"
+		, "Count" : 123
+	}
+	,{
+		"Name" : "Aegean Numbers"
+		, "Start" : "U+10100"
+		, "End" : "U+1013F"
+		, "Count" : 57
+	}
+	,{
+		"Name" : "Ancient Greek Numbers"
+		, "Start" : "U+10140"
+		, "End" : "U+1018F"
+		, "Count" : 77
+	}
+	,{
+		"Name" : "Ancient Symbols"
+		, "Start" : "U+10190"
+		, "End" : "U+101CF"
+		, "Count" : 13
+	}
+	,{
+		"Name" : "Phaistos Disc"
+		, "Start" : "U+101D0"
+		, "End" : "U+101FF"
+		, "Count" : 46
+	}
+	,{
+		"Name" : "Lycian"
+		, "Start" : "U+10280"
+		, "End" : "U+1029F"
+		, "Count" : 29
+	}
+	,{
+		"Name" : "Carian"
+		, "Start" : "U+102A0"
+		, "End" : "U+102DF"
+		, "Count" : 49
+	}
+	,{
+		"Name" : "Coptic Epact Numbers"
+		, "Start" : "U+102E0"
+		, "End" : "U+102FF"
+		, "Count" : 28
+	}
+	,{
+		"Name" : "Old Italic"
+		, "Start" : "U+10300"
+		, "End" : "U+1032F"
+		, "Count" : 36
+	}
+	,{
+		"Name" : "Gothic"
+		, "Start" : "U+10330"
+		, "End" : "U+1034F"
+		, "Count" : 27
+	}
+	,{
+		"Name" : "Old Permic"
+		, "Start" : "U+10350"
+		, "End" : "U+1037F"
+		, "Count" : 43
+	}
+	,{
+		"Name" : "Ugaritic"
+		, "Start" : "U+10380"
+		, "End" : "U+1039F"
+		, "Count" : 31
+	}
+	,{
+		"Name" : "Old Persian"
+		, "Start" : "U+103A0"
+		, "End" : "U+103DF"
+		, "Count" : 50
+	}
+	,{
+		"Name" : "Deseret"
+		, "Start" : "U+10400"
+		, "End" : "U+1044F"
+		, "Count" : 80
+	}
+	,{
+		"Name" : "Shavian"
+		, "Start" : "U+10450"
+		, "End" : "U+1047F"
+		, "Count" : 48
+	}
+	,{
+		"Name" : "Osmanya"
+		, "Start" : "U+10480"
+		, "End" : "U+104AF"
+		, "Count" : 40
+	}
+	,{
+		"Name" : "Elbasan"
+		, "Start" : "U+10500"
+		, "End" : "U+1052F"
+		, "Count" : 40
+	}
+	,{
+		"Name" : "Caucasian Albanian"
+		, "Start" : "U+10530"
+		, "End" : "U+1056F"
+		, "Count" : 53
+	}
+	,{
+		"Name" : "Linear A"
+		, "Start" : "U+10600"
+		, "End" : "U+1077F"
+		, "Count" : 341
+	}
+	,{
+		"Name" : "Cypriot Syllabary"
+		, "Start" : "U+10800"
+		, "End" : "U+1083F"
+		, "Count" : 55
+	}
+	,{
+		"Name" : "Imperial Aramaic"
+		, "Start" : "U+10840"
+		, "End" : "U+1085F"
+		, "Count" : 31
+	}
+	,{
+		"Name" : "Palmyrene"
+		, "Start" : "U+10860"
+		, "End" : "U+1087F"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Nabataean"
+		, "Start" : "U+10880"
+		, "End" : "U+108AF"
+		, "Count" : 40
+	}
+	,{
+		"Name" : "Phoenician"
+		, "Start" : "U+10900"
+		, "End" : "U+1091F"
+		, "Count" : 29
+	}
+	,{
+		"Name" : "Lydian"
+		, "Start" : "U+10920"
+		, "End" : "U+1093F"
+		, "Count" : 27
+	}
+	,{
+		"Name" : "Meroitic Hieroglyphs"
+		, "Start" : "U+10980"
+		, "End" : "U+1099F"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Meroitic Cursive"
+		, "Start" : "U+109A0"
+		, "End" : "U+109FF"
+		, "Count" : 26
+	}
+	,{
+		"Name" : "Kharoshthi"
+		, "Start" : "U+10A00"
+		, "End" : "U+10A5F"
+		, "Count" : 65
+	}
+	,{
+		"Name" : "Old South Arabian"
+		, "Start" : "U+10A60"
+		, "End" : "U+10A7F"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Old North Arabian"
+		, "Start" : "U+10A80"
+		, "End" : "U+10A9F"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Manichaean"
+		, "Start" : "U+10AC0"
+		, "End" : "U+10AFF"
+		, "Count" : 51
+	}
+	,{
+		"Name" : "Avestan"
+		, "Start" : "U+10B00"
+		, "End" : "U+10B3F"
+		, "Count" : 61
+	}
+	,{
+		"Name" : "Inscriptional Parthian"
+		, "Start" : "U+10B40"
+		, "End" : "U+10B5F"
+		, "Count" : 30
+	}
+	,{
+		"Name" : "Inscriptional Pahlavi"
+		, "Start" : "U+10B60"
+		, "End" : "U+10B7F"
+		, "Count" : 27
+	}
+	,{
+		"Name" : "Psalter Pahlavi"
+		, "Start" : "U+10B80"
+		, "End" : "U+10BAF"
+		, "Count" : 29
+	}
+	,{
+		"Name" : "Old Turkic"
+		, "Start" : "U+10C00"
+		, "End" : "U+10C4F"
+		, "Count" : 73
+	}
+	,{
+		"Name" : "Rumi Numeral Symbols"
+		, "Start" : "U+10E60"
+		, "End" : "U+10E7F"
+		, "Count" : 31
+	}
+	,{
+		"Name" : "Brahmi"
+		, "Start" : "U+11000"
+		, "End" : "U+1107F"
+		, "Count" : 109
+	}
+	,{
+		"Name" : "Kaithi"
+		, "Start" : "U+11080"
+		, "End" : "U+110CF"
+		, "Count" : 66
+	}
+	,{
+		"Name" : "Sora Sompeng"
+		, "Start" : "U+110D0"
+		, "End" : "U+110FF"
+		, "Count" : 35
+	}
+	,{
+		"Name" : "Chakma"
+		, "Start" : "U+11100"
+		, "End" : "U+1114F"
+		, "Count" : 67
+	}
+	,{
+		"Name" : "Mahajani"
+		, "Start" : "U+11150"
+		, "End" : "U+1117F"
+		, "Count" : 39
+	}
+	,{
+		"Name" : "Sharada"
+		, "Start" : "U+11180"
+		, "End" : "U+111DF"
+		, "Count" : 85
+	}
+	,{
+		"Name" : "Sinhala Archaic Numbers"
+		, "Start" : "U+111E0"
+		, "End" : "U+111FF"
+		, "Count" : 20
+	}
+	,{
+		"Name" : "Khojki"
+		, "Start" : "U+11200"
+		, "End" : "U+1124F"
+		, "Count" : 61
+	}
+	,{
+		"Name" : "Khudawadi"
+		, "Start" : "U+112B0"
+		, "End" : "U+112FF"
+		, "Count" : 69
+	}
+	,{
+		"Name" : "Grantha"
+		, "Start" : "U+11300"
+		, "End" : "U+1137F"
+		, "Count" : 83
+	}
+	,{
+		"Name" : "Tirhuta"
+		, "Start" : "U+11480"
+		, "End" : "U+114DF"
+		, "Count" : 82
+	}
+	,{
+		"Name" : "Siddham"
+		, "Start" : "U+11580"
+		, "End" : "U+115FF"
+		, "Count" : 72
+	}
+	,{
+		"Name" : "Modi"
+		, "Start" : "U+11600"
+		, "End" : "U+1165F"
+		, "Count" : 79
+	}
+	,{
+		"Name" : "Takri"
+		, "Start" : "U+11680"
+		, "End" : "U+116CF"
+		, "Count" : 66
+	}
+	,{
+		"Name" : "Warang Citi"
+		, "Start" : "U+118A0"
+		, "End" : "U+118FF"
+		, "Count" : 84
+	}
+	,{
+		"Name" : "Pau Cin Hau"
+		, "Start" : "U+11AC0"
+		, "End" : "U+11AFF"
+		, "Count" : 57
+	}
+	,{
+		"Name" : "Cuneiform"
+		, "Start" : "U+12000"
+		, "End" : "U+123FF"
+		, "Count" : 921
+	}
+	,{
+		"Name" : "Cuneiform Numbers and Punctuation"
+		, "Start" : "U+12400"
+		, "End" : "U+1247F"
+		, "Count" : 116
+	}
+	,{
+		"Name" : "Egyptian Hieroglyphs"
+		, "Start" : "U+13000"
+		, "End" : "U+1342F"
+		, "Count" : 1071
+	}
+	,{
+		"Name" : "Bamum Supplement"
+		, "Start" : "U+16800"
+		, "End" : "U+16A3F"
+		, "Count" : 569
+	}
+	,{
+		"Name" : "Mro"
+		, "Start" : "U+16A40"
+		, "End" : "U+16A6F"
+		, "Count" : 43
+	}
+	,{
+		"Name" : "Bassa Vah"
+		, "Start" : "U+16AD0"
+		, "End" : "U+16AFF"
+		, "Count" : 36
+	}
+	,{
+		"Name" : "Pahawh Hmong"
+		, "Start" : "U+16B00"
+		, "End" : "U+16B8F"
+		, "Count" : 127
+	}
+	,{
+		"Name" : "Miao"
+		, "Start" : "U+16F00"
+		, "End" : "U+16F9F"
+		, "Count" : 133
+	}
+	,{
+		"Name" : "Kana Supplement"
+		, "Start" : "U+1B000"
+		, "End" : "U+1B0FF"
+		, "Count" : 2
+	}
+	,{
+		"Name" : "Duployan"
+		, "Start" : "U+1BC00"
+		, "End" : "U+1BC9F"
+		, "Count" : 143
+	}
+	,{
+		"Name" : "Shorthand Format Controls"
+		, "Start" : "U+1BCA0"
+		, "End" : "U+1BCAF"
+		, "Count" : 4
+	}
+	,{
+		"Name" : "Byzantine Musical Symbols"
+		, "Start" : "U+1D000"
+		, "End" : "U+1D0FF"
+		, "Count" : 246
+	}
+	,{
+		"Name" : "Musical Symbols"
+		, "Start" : "U+1D100"
+		, "End" : "U+1D1FF"
+		, "Count" : 220
+	}
+	,{
+		"Name" : "Ancient Greek Musical Notation"
+		, "Start" : "U+1D200"
+		, "End" : "U+1D24F"
+		, "Count" : 70
+	}
+	,{
+		"Name" : "Tai Xuan Jing Symbols"
+		, "Start" : "U+1D300"
+		, "End" : "U+1D35F"
+		, "Count" : 87
+	}
+	,{
+		"Name" : "Counting Rod Numerals"
+		, "Start" : "U+1D360"
+		, "End" : "U+1D37F"
+		, "Count" : 18
+	}
+	,{
+		"Name" : "Mathematical Alphanumeric Symbols"
+		, "Start" : "U+1D400"
+		, "End" : "U+1D7FF"
+		, "Count" : 996
+	}
+	,{
+		"Name" : "Mende Kikakui"
+		, "Start" : "U+1E800"
+		, "End" : "U+1E8DF"
+		, "Count" : 213
+	}
+	,{
+		"Name" : "Arabic Mathematical Alphabetic Symbols"
+		, "Start" : "U+1EE00"
+		, "End" : "U+1EEFF"
+		, "Count" : 143
+	}
+	,{
+		"Name" : "Mahjong Tiles"
+		, "Start" : "U+1F000"
+		, "End" : "U+1F02F"
+		, "Count" : 44
+	}
+	,{
+		"Name" : "Domino Tiles"
+		, "Start" : "U+1F030"
+		, "End" : "U+1F09F"
+		, "Count" : 100
+	}
+	,{
+		"Name" : "Playing Cards"
+		, "Start" : "U+1F0A0"
+		, "End" : "U+1F0FF"
+		, "Count" : 82
+	}
+	,{
+		"Name" : "Enclosed Alphanumeric Supplement"
+		, "Start" : "U+1F100"
+		, "End" : "U+1F1FF"
+		, "Count" : 173
+	}
+	,{
+		"Name" : "Enclosed Ideographic Supplement"
+		, "Start" : "U+1F200"
+		, "End" : "U+1F2FF"
+		, "Count" : 57
+	}
+	,{
+		"Name" : "Miscellaneous Symbols and Pictographs"
+		, "Start" : "U+1F300"
+		, "End" : "U+1F5FF"
+		, "Count" : 742
+	}
+	,{
+		"Name" : "Emoticons"
+		, "Start" : "U+1F600"
+		, "End" : "U+1F64F"
+		, "Count" : 78
+	}
+	,{
+		"Name" : "Ornamental Dingbats"
+		, "Start" : "U+1F650"
+		, "End" : "U+1F67F"
+		, "Count" : 48
+	}
+	,{
+		"Name" : "Transport and Map Symbols"
+		, "Start" : "U+1F680"
+		, "End" : "U+1F6FF"
+		, "Count" : 97
+	}
+	,{
+		"Name" : "Alchemical Symbols"
+		, "Start" : "U+1F700"
+		, "End" : "U+1F77F"
+		, "Count" : 116
+	}
+	,{
+		"Name" : "Geometric Shapes Extended"
+		, "Start" : "U+1F780"
+		, "End" : "U+1F7FF"
+		, "Count" : 85
+	}
+	,{
+		"Name" : "Supplemental Arrows-C"
+		, "Start" : "U+1F800"
+		, "End" : "U+1F8FF"
+		, "Count" : 148
+	}
+	,{
+		"Name" : "CJK Unified Ideographs Extension B"
+		, "Start" : "U+20000"
+		, "End" : "U+2A6DF"
+		, "Count" : 42676
+		, "Disabled" : true
+	}
+	,{
+		"Name" : "CJK Unified Ideographs Extension C"
+		, "Start" : "U+2A700"
+		, "End" : "U+2B73F"
+		, "Count" : 60
+	}
+	,{
+		"Name" : "CJK Unified Ideographs Extension D"
+		, "Start" : "U+2B740"
+		, "End" : "U+2B81F"
+		, "Count" : 27
+	}
+	,{
+		"Name" : "CJK Compatibility Ideographs Supplement"
+		, "Start" : "U+2F800"
+		, "End" : "U+2FA1F"
+		, "Count" : 542
+	}
+	,{
+		"Name" : "Tags"
+		, "Start" : "U+E0000"
+		, "End" : "U+E007F"
+		, "Count" : 97
+	}
+	,{
+		"Name" : "Variation Selectors Supplement"
+		, "Start" : "U+E0100"
+		, "End" : "U+E01EF"
+		, "Count" : 240
+		, "Disabled" : true
+	}
+	,{
+		"Name" : "Supplementary Private Use Area-A"
+		, "Start" : "U+F0000"
+		, "End" : "U+FFFFF"
+		, "Count" : 4
+		, "Disabled" : true
+	}
+	,{
+		"Name" : "Supplementary Private Use Area-B"
+		, "Start" : "U+100000"
+		, "End" : "U+10FFFF"
+		, "Count" : 4
+		, "Disabled" : true
+	}
+	]
+
+}

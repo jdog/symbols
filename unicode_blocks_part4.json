@@ -1,0 +1,178 @@
+{
+	"Blocks" : [
+	{
+		"Name" : "Phonetic Extensions Supplement"
+		, "Start" : "U+1D80"
+		, "End" : "U+1DBF"
+		, "Count" : 64
+	}
+	,{
+		"Name" : "Combining Diacritical Marks Supplement"
+		, "Start" : "U+1DC0"
+		, "End" : "U+1DFF"
+		, "Count" : 58
+	}
+	,{
+		"Name" : "Latin Extended Additional"
+		, "Start" : "U+1E00"
+		, "End" : "U+1EFF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "Greek Extended"
+		, "Start" : "U+1F00"
+		, "End" : "U+1FFF"
+		, "Count" : 233
+	}
+	,{
+		"Name" : "General Punctuation"
+		, "Start" : "U+2000"
+		, "End" : "U+206F"
+		, "Count" : 111
+	}
+	,{
+		"Name" : "Superscripts and Subscripts"
+		, "Start" : "U+2070"
+		, "End" : "U+209F"
+		, "Count" : 42
+	}
+	,{
+		"Name" : "Currency Symbols"
+		, "Start" : "U+20A0"
+		, "End" : "U+20CF"
+		, "Count" : 30
+	}
+	,{
+		"Name" : "Combining Diacritical Marks for Symbols"
+			, "Start" : "U+20D0"
+		, "End" : "U+20FF"
+		, "Count" : 33
+	}
+	,{
+		"Name" : "Letterlike Symbols"
+		, "Start" : "U+2100"
+		, "End" : "U+214F"
+		, "Count" : 80
+	}
+	,{
+		"Name" : "Number Forms"
+		, "Start" : "U+2150"
+		, "End" : "U+218F"
+		, "Count" : 58
+	}
+	,{
+		"Name" : "Arrows"
+		, "Start" : "U+2190"
+		, "End" : "U+21FF"
+		, "Count" : 112
+	}
+	,{
+		"Name" : "Mathematical Operators"
+		, "Start" : "U+2200"
+		, "End" : "U+22FF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "Miscellaneous Technical"
+		, "Start" : "U+2300"
+		, "End" : "U+23FF"
+		, "Count" : 251
+	}
+	,{
+		"Name" : "Control Pictures"
+		, "Start" : "U+2400"
+		, "End" : "U+243F"
+		, "Count" : 39
+	}
+	,{
+		"Name" : "Optical Character Recognition"
+		, "Start" : "U+2440"
+		, "End" : "U+245F"
+		, "Count" : 11
+	}
+	,{
+		"Name" : "Enclosed Alphanumerics"
+		, "Start" : "U+2460"
+		, "End" : "U+24FF"
+		, "Count" : 160
+	}
+	,{
+		"Name" : "Box Drawing"
+		, "Start" : "U+2500"
+		, "End" : "U+257F"
+		, "Count" : 128
+	}
+	,{
+		"Name" : "Block Elements"
+		, "Start" : "U+2580"
+		, "End" : "U+259F"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Geometric Shapes"
+		, "Start" : "U+25A0"
+		, "End" : "U+25FF"
+		, "Count" : 96
+	}
+	,{
+		"Name" : "Miscellaneous Symbols"
+		, "Start" : "U+2600"
+		, "End" : "U+26FF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "Dingbats"
+		, "Start" : "U+2700"
+		, "End" : "U+27BF"
+		, "Count" : 192
+	}
+	,{
+		"Name" : "Miscellaneous Mathematical Symbols-A"
+		, "Start" : "U+27C0"
+		, "End" : "U+27EF"
+		, "Count" : 48
+	}
+	,{
+		"Name" : "Supplemental Arrows-A"
+		, "Start" : "U+27F0"
+		, "End" : "U+27FF"
+		, "Count" : 16
+	}
+	,{
+		"Name" : "Braille Patterns"
+		, "Start" : "U+2800"
+		, "End" : "U+28FF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "Supplemental Arrows-B"
+		, "Start" : "U+2900"
+		, "End" : "U+297F"
+		, "Count" : 128
+	}
+	,{
+		"Name" : "Miscellaneous Mathematical Symbols-B"
+		, "Start" : "U+2980"
+		, "End" : "U+29FF"
+		, "Count" : 128
+	}
+	,{
+		"Name" : "Supplemental Mathematical Operators"
+		, "Start" : "U+2A00"
+		, "End" : "U+2AFF"
+		, "Count" : 256
+	}
+	,{
+		"Name" : "Miscellaneous Symbols and Arrows"
+		, "Start" : "U+2B00"
+		, "End" : "U+2BFF"
+		, "Count" : 202
+	}
+	,{
+		"Name" : "Glagolitic"
+		, "Start" : "U+2C00"
+		, "End" : "U+2C5F"
+		, "Count" : 94
+	}
+	]
+}

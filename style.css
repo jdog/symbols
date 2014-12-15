@@ -1,0 +1,35 @@
+html, body { font-family:arial; background-color:#fff; }
+#characterMap h1 { text-align:left; position:relative; }
+#characterMap h1 em { font-style:normal; }
+#characterMap h1 em:before { content: "Total Characters : "; font-size:50%; padding-left: 13px; text-transform: uppercase; font-weight: normal; vertical-align: middle;}
+#symbols, #cool { }
+.symbol { background-color:#fff; display: inline-block; width: 100px; height: 100px; padding: 0; position: relative; border: 1px solid rgba(0, 0, 0, .1); margin: 5px; text-align:center; }
+.symbol i { position: absolute; font-size: 11px; font-style: normal; bottom: 3px; left: 0; font-family: verdana, arial; letter-spacing: 1px; width: 100%; display:inline-block; }
+.symbol b { position: absolute; font-size: 55px; font-style: normal; font-weight: normal; top: 0; left: 0; font-family: verdana, arial; letter-spacing: 1px; width: 100%; display: inline-block; line-height:65px; }
+.bizzare-symbols .symbol { width:150px; height:120px; }
+.bizzare-symbols .symbol b { font-size:90px; line-height:90px; }
+
+.Wrap { position:fixed; top:0; right:0; bottom:0; left:0; }
+
+#toc { position:absolute; left:0; width:20%; bottom:0; top:0; box-sizing:border-box; padding:0; color:#000; }
+#toc a:visited,
+#toc a { display:block; text-decoration:none; padding:5px 10px; color:#000; transition:all .5s; }
+.Wrap .Main { position:absolute; left:20%; bottom:0; right:0; top:0; padding-left:20px; }
+#toc a { }
+#toc a.Selected,
+#toc a:hover { 
+	background-color:#000;
+	color:#fff;
+}
+
+.Wrap .Main,
+#toc {
+	overflow-y:scroll;
+}
+
+
+.symbol {
+	background:white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAlQTFRF////9PT06+vrawerqQAAABVJREFUeNpiYGKEAQZGBjigERMgwAAG1gAV2O8/1QAAAABJRU5ErkJggg==) repeat 0 0;
+}
+
+

@@ -1,0 +1,118 @@
+{
+	"Blocks" : [
+	{
+		"Name" : "Tagbanwa"
+		, "Start" : "U+1760"
+		, "End" : "U+177F"
+		, "Count" : 18
+	}
+	,{
+		"Name" : "Khmer"
+		, "Start" : "U+1780"
+		, "End" : "U+17FF"
+		, "Count" : 114
+	}
+	,{
+		"Name" : "Mongolian"
+		, "Start" : "U+1800"
+		, "End" : "U+18AF"
+		, "Count" : 156
+	}
+	,{
+		"Name" : "Unified Canadian Aboriginal Syllabics Extended"
+		, "Start" : "U+18B0"
+		, "End" : "U+18FF"
+		, "Count" : 70
+	}
+	,{
+		"Name" : "Limbu"
+		, "Start" : "U+1900"
+		, "End" : "U+194F"
+		, "Count" : 68
+	}
+	,{
+		"Name" : "Tai Le"
+		, "Start" : "U+1950"
+		, "End" : "U+197F"
+		, "Count" : 35
+	}
+	,{
+		"Name" : "New Tai Lue"
+		, "Start" : "U+1980"
+		, "End" : "U+19DF"
+		, "Count" : 83
+	}
+	,{
+		"Name" : "Khmer Symbols"
+		, "Start" : "U+19E0"
+		, "End" : "U+19FF"
+		, "Count" : 32
+	}
+	,{
+		"Name" : "Buginese"
+		, "Start" : "U+1A00"
+		, "End" : "U+1A1F"
+		, "Count" : 30
+	}
+	,{
+		"Name" : "Tai Tham"
+		, "Start" : "U+1A20"
+		, "End" : "U+1AAF"
+		, "Count" : 127
+	}
+	,{
+		"Name" : "Combining Diacritical Marks Extended"
+		, "Start" : "U+1AB0"
+		, "End" : "U+1AFF"
+		, "Count" : 15
+	}
+	,{
+		"Name" : "Balinese"
+		, "Start" : "U+1B00"
+		, "End" : "U+1B7F"
+		, "Count" : 121
+	}
+	,{
+		"Name" : "Sundanese"
+		, "Start" : "U+1B80"
+		, "End" : "U+1BBF"
+		, "Count" : 64
+	}
+	,{
+		"Name" : "Batak"
+		, "Start" : "U+1BC0"
+		, "End" : "U+1BFF"
+		, "Count" : 56
+	}
+	,{
+		"Name" : "Lepcha"
+		, "Start" : "U+1C00"
+		, "End" : "U+1C4F"
+		, "Count" : 74
+	}
+	,{
+		"Name" : "Ol Chiki"
+		, "Start" : "U+1C50"
+		, "End" : "U+1C7F"
+		, "Count" : 48
+	}
+	,{
+		"Name" : "Sundanese Supplement"
+		, "Start" : "U+1CC0"
+		, "End" : "U+1CCF"
+		, "Count" : 8
+	}
+	,{
+		"Name" : "Vedic Extensions"
+		, "Start" : "U+1CD0"
+		, "End" : "U+1CFF"
+		, "Count" : 41
+	}
+	,{
+		"Name" : "Phonetic Extensions"
+		, "Start" : "U+1D00"
+		, "End" : "U+1D7F"
+		, "Count" : 128
+	}
+	]
+}
