@@ -51,6 +51,9 @@ PAGE.addWait(
 				, item = dog.dataHash[name]
 				, e_toc_items = dog.symbols.e_toc.children
 				, e_current_nav
+			
+			if (!item)
+				return
 
 			for (var x = e_toc_items.length; x--;)
 				if (e_toc_items[x].innerHTML === name) {
