@@ -83,8 +83,11 @@ PAGE.addWait(
 
 			if (location.hash) {
 				var e_nav_element = readHash()
-				e_nav_element.scrollIntoView()
-				e_nav_element.parentNode.scrollTop -= ((window.outerHeight / 2) - 70)
+				if (e_nav_element) {
+					e_nav_element.scrollIntoView()
+					e_nav_element.parentNode.scrollTop -= ((window.outerHeight / 2) - 70)
+				}
+
 			} else {
 
 				var item = dog.dataHash["basic_latin"]
