@@ -59,8 +59,6 @@ PAGE.addWait(
 
 			if (e_current_nav) {
 				e_current_nav.className = "Selected"
-			} else {
-				e_current_nav && e_current_nav.className = ""
 			}
 
 			dog.symbols.buildGroupRange(
