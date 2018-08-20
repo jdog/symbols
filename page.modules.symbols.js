@@ -47,7 +47,7 @@ PAGE.addWait(
 
 		function readHash(e) {
 			var hash = location.hash
-				, name = hash.substr(1)
+				, name = hash.replace(new RegExp("%20", "g"), " " )
 				, item = dog.dataHash[name]
 				, e_toc_items = dog.symbols.e_toc.children
 				, e_current_nav
