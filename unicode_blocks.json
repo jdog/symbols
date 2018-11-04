@@ -1475,7 +1475,6 @@
 		, "Start" : "U+20000"
 		, "End" : "U+2A6DF"
 		, "Count" : 42676
-		, "Disabled" : true
 	}
 	,{
 		"Name" : "CJK Unified Ideographs Extension C"
@@ -1506,21 +1505,18 @@
 		, "Start" : "U+E0100"
 		, "End" : "U+E01EF"
 		, "Count" : 240
-		, "Disabled" : true
 	}
 	,{
 		"Name" : "Supplementary Private Use Area-A"
 		, "Start" : "U+F0000"
 		, "End" : "U+FFFFF"
 		, "Count" : 4
-		, "Disabled" : true
 	}
 	,{
 		"Name" : "Supplementary Private Use Area-B"
 		, "Start" : "U+100000"
 		, "End" : "U+10FFFF"
 		, "Count" : 4
-		, "Disabled" : true
 	}
 	]
 
