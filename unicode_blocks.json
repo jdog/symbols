@@ -1518,6 +1518,12 @@
 		, "End" : "U+10FFFF"
 		, "Count" : 4
 	}
+	,{
+		"Name" : "What else is there?"
+		, "Start" : "U+10FFFF"
+		, "End" : "U+222222"
+		, "Count" : 4
+	}
 	]
 
 }
