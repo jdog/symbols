@@ -85,8 +85,7 @@ PAGE.addWait(
 				var e_nav_element = readHash()
 				if (e_nav_element) {
 					e_nav_element.scrollIntoView()
-					// e_nav_element.parentNode.scrollTop -= ((window.outerHeight / 2) - 70)
-					e_nav_element.scrollIntoVIew({behavior: "smooth", block: "center", inline: "start"})
+					e_nav_element.parentNode.scrollTop -= ((window.outerHeight / 2) - 70)
 				}
 
 			} else {
